@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Pizza</string>
+    <string name="buy_pizza">Buy Pizza</string>
+    <string name="buy_discount">Buy Discount</string>
+    <string name="buy_subscription">Buy Subscription</string>
+    <string name="subscription_confirmed">A Pizza with your Lifetime 50% Discount</string>
+    <string name="pizza_confirmed">One Pizza</string>
+    <string name="nothing">nothing</string>
+</resources>

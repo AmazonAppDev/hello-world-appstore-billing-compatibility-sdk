@@ -45,3 +45,5 @@ Get the most up to date Amazon Appstore developer news, product releases, tutori
 ## Authors
 
 - [@giolaq](https://twitter.com/giolaq)
+- [@_yoolivia](https://twitter.com/_yoolivia)
+

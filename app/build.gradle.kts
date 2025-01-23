@@ -67,8 +67,7 @@ dependencies {
 
     implementation(libs.androidx.lifecycle.livedata.ktx)
 
-
-    implementation(files("libs/appstore-billing-compatibility-4.1.0.jar"))
+    implementation(libs.amazon.appostore.abcd)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

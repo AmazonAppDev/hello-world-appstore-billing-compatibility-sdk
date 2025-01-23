@@ -18,13 +18,12 @@ Key features include:
 1. Clone the demo app repository:
 `git clone https://github.com/AmazonAppDev/hello-world-appstore-billing-compatibility-sdk.git`
 2. Open the project in Android Studio and wait for Gradle to sync. ⏳
-3. Add the Appstore Billing Compatibility SDK jar file in the ```app/libs``` More info [here](https://developer.amazon.com/docs/in-app-purchasing/appstore-billing-compatibility.html#integrate))
-4. Log into the Amazon Developer console and create an app
-5. Generate a public key for your app and download the AppstoreAuthenticationKey.pem file. More info [here](https://developer.amazon.com/docs/in-app-purchasing/appstore-billing-compatibility.html#configure-public-key)
-6. Copy the PEM file to your app's ```src/main/assets folder```.
-7. Add the IAPs in the Amazon Appstore console. ( Make sure the SKU are the same as in ```HelloPizzaRepository.kt``` )
-8. Connect a Fire tablet via USB. See instructions for 🔌 [Connecting to Fire Device through ADB](https://developer.amazon.com/docs/fire-tablets/connecting-adb-to-device.html)
-9. Choose 'Run' > 'Run app' to launch the app on your device or emulator. ▶️
+3. Log into the Amazon Developer console and create an app
+4. Generate a public key for your app and download the AppstoreAuthenticationKey.pem file. More info [here](https://developer.amazon.com/docs/in-app-purchasing/appstore-billing-compatibility.html#configure-public-key)
+5. Copy the PEM file to your app's ```src/main/assets folder```.
+6. Add the IAPs in the Amazon Appstore console. ( Make sure the SKU are the same as in ```HelloPizzaRepository.kt``` )
+7. Connect a Fire tablet via USB. See instructions for 🔌 [Connecting to Fire Device through ADB](https://developer.amazon.com/docs/fire-tablets/connecting-adb-to-device.html)
+8. Choose 'Run' > 'Run app' to launch the app on your device or emulator. ▶️
 
 ## Get support
 If you found a bug or want to suggest a new [feature/use case/sample], please [file an issue](../../issues).

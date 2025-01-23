@@ -12,6 +12,7 @@ roomCommon = "2.6.1"
 roomKtx = "2.6.1"
 lifecycleLivedataKtx = "2.7.0"
 ksp = "1.9.23-1.0.19"
+abcdVersion = "4.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,6 +34,7 @@ androidx-room-runtime = { group = "androidx.room", name = "room-runtime", versio
 androidx-room-compiler= { group = "androidx.room", name = "room-compiler", version.ref = "roomCommon" }
 androidx-room-ktx= { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+amazon-appostore-abcd = { group = "com.amazon.device", name = "appstore-billing-compatibility", version.ref = "abcdVersion" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
